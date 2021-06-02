@@ -1,0 +1,25 @@
+body {
+    background-color: #7320C2;
+}
+#formulario-pergunta {
+    margin-top: 5vh;
+    border-color: rgb(109, 43, 172);
+}
+#navbar-prop {
+    background-color: #5D1A9C;
+    box-shadow: 10vh;
+    -webkit-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.75);
+    
+}
+#header-pergunta {
+    background-color: #7320C2;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#body-pergunta {
+    background-color: #3E1169;
+}
