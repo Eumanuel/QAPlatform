@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const connection  = require("./database/database");
 const Pergunta = require("./database/Pergunta");
-const Resposta = require("./database/Resposta")
+const Resposta = require("./database/Resposta");
 //Database
 
 connection
@@ -15,7 +15,7 @@ connection
         console.log(msgErro);
     })
 
-//Estou dizendo para o express usar o ejs como view engine
+//o express vai usar o ejs como view engine
 app.set('view engine','ejs');
 app.use(express.static('public'));
 
